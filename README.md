@@ -1,7 +1,7 @@
 # PV_AreaEstimator
 This script is designed to perform detection and segmentation of photovoltaic installations in aerial images using trained YOLO models to estimate the surface area of the detected photovoltaic installations. The training and validation set have been created using aerial images of the Canton of Zurich, Switzerland.
 
-## 1. How to Use:
+## How to Use:
 ```
 git clone https://github.com/mattdepaolis/PV_AreaEstimator.git
 cd PV_AreaEstimator
@@ -36,7 +36,7 @@ Arguments:<br>
 [Training and Validation Set for Detection](https://drive.google.com/drive/folders/1_op6JCrr5PtL0Z6r1h6oUpVMOU_s6ewo?usp=drive_link)<br>
 [Training and Validation Set for Segmentation](https://drive.google.com/drive/folders/1NDOf54O5t8VD2k37Nl_63CzUlY4-2kPc?usp=drive_link) 
 
-## 4. Outputs:
+## Outputs:
 The script will visualize the aerial images, the prediction masks, and the estimated photovoltaic installation surface areas in square meters for each image.
 
 ## Notes:
