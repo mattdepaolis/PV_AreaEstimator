@@ -16,7 +16,7 @@ https://drive.google.com/drive/folders/1oAWPxvSTWwVshLgfIpz4gQoA-hhGQg6G?usp=dri
 
 YOLOv8 segmentation model:
 ```
-
+https://drive.google.com/drive/folders/1oAWPxvSTWwVshLgfIpz4gQoA-hhGQg6G?usp=drive_link
 ```
 
 Install the required packages:
