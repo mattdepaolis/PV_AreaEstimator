@@ -11,12 +11,12 @@ Then download the pre-trained classification model and segmentation model for th
 
 YOLOv8 detection model.:
 ```
-https://drive.google.com/file/d/1XaxJmhaMK3zrnw37mGQKRlr017Kq_ZcL/view?usp=drive_link
+https://drive.google.com/drive/folders/1oAWPxvSTWwVshLgfIpz4gQoA-hhGQg6G?usp=drive_link
 ```
 
 YOLOv8 segmentation model:
 ```
-https://drive.google.com/file/d/1eeKUWc4CDnrL-mbPampeTzxZGVhunul5/view?usp=drive_link
+
 ```
 
 Install the required packages:
