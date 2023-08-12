@@ -5,20 +5,15 @@ This script is designed to perform detection and segmentation of photovoltaic in
 ```
 git clone https://github.com/mattdepaolis/PV_AreaEstimator.git
 cd PV_AreaEstimator
-````
+```
 
 Then download the folders containing the pre-trained classification model and segmentation model for the photovoltaic installation detection and segmentation task and move them to the folder PV_AreaEstimator.
 
-YOLOv8 detection model.:
-```
-https://drive.google.com/drive/folders/1UqNQo_xdwcFoGRyhjUd2u7WKBXekeez9?usp=drive_link
-```
+YOLOv8 [detection model](https://drive.google.com/drive/folders/1UqNQo_xdwcFoGRyhjUd2u7WKBXekeez9?usp=drive_link)
 
-YOLOv8 segmentation model:
-```
-https://drive.google.com/drive/folders/1oAWPxvSTWwVshLgfIpz4gQoA-hhGQg6G?usp=drive_link
-```
-
+YOLOv8 [segmentation model](https://drive.google.com/drive/folders/1oAWPxvSTWwVshLgfIpz4gQoA-hhGQg6G?usp=drive_link)
+<br>
+<br>
 Install the required packages:
 ```
 pip install -r requirements.txt
