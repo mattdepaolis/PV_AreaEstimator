@@ -1,5 +1,5 @@
 # PV_AreaEstimator
-This script is designed to perform detection and segmentation of photovoltaic installations in aerial images using trained YOLO models to estimate the surface area of the detected photovoltaic installations.
+This script is designed to perform detection and segmentation of photovoltaic installations in aerial images using trained YOLO models to estimate the surface area of the detected photovoltaic installations. The training and validation set have been created using aerial images of the Canton of Zurich, Switzerland.
 
 ## 1. How to Use:
 ```
@@ -19,11 +19,11 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
-## 2. Command Line Execution:
+Command Line Execution:
 ```
 python _PV_AreaEstimator.py --folder-path <path_to_images> --detection-model <path_to_detection_model> --segmentation-model <path_to_segmentation_model> [optional arguments]
 ```
-## 3. Arguments:
+Arguments:<br>
 --folder-path: Path to the folder containing the aerial images for processing.<br>
 --detection-model: Path to the trained detection YOLO model.<br>
 --segmentation-model: Path to the trained segmentation YOLO model.<br>
@@ -32,8 +32,14 @@ python _PV_AreaEstimator.py --folder-path <path_to_images> --detection-model <pa
 --img-size: Size for image resizing (default: 640).<br>
 --tilt-angle: Tilt angle of the photovoltaic installation in degrees (default: 30).<br>
 
+## Data
+[Training and Validation Set for Detection](https://drive.google.com/drive/folders/1_op6JCrr5PtL0Z6r1h6oUpVMOU_s6ewo?usp=drive_link)<br>
+[Training and Validation Set for Segmentation](https://drive.google.com/drive/folders/1NDOf54O5t8VD2k37Nl_63CzUlY4-2kPc?usp=drive_link) 
+
 ## 4. Outputs:
 The script will visualize the aerial images, the prediction masks, and the estimated photovoltaic installation surface areas in square meters for each image.
 
 ## Notes:
-Ensure you have the necessary models and input images in place before running the script.
+Make sure you have the necessary models and input images in place before running the script.
+
+
