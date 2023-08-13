@@ -1,7 +1,7 @@
 # PV_AreaEstimator
 This script is designed to perform detection and segmentation of photovoltaic installations in aerial images using trained YOLO models to estimate the surface area of the detected photovoltaic installations. The training and validation set have been created using aerial images of the Canton of Zurich, Switzerland.
 
-## How to Use:
+## How to Use
 ```
 git clone https://github.com/mattdepaolis/PV_AreaEstimator.git
 cd PV_AreaEstimator
@@ -32,12 +32,26 @@ Arguments:<br>
 --img-size: Size for image resizing (default: 640).<br>
 --tilt-angle: Tilt angle of the photovoltaic installation in degrees (default: 30).<br>
 
-## Data
-[Training and Validation Set for Detection](https://drive.google.com/drive/folders/1_op6JCrr5PtL0Z6r1h6oUpVMOU_s6ewo?usp=drive_link)<br>
-[Training and Validation Set for Segmentation](https://drive.google.com/drive/folders/1NDOf54O5t8VD2k37Nl_63CzUlY4-2kPc?usp=drive_link) 
+Since the image was taken from a bird's eye view, it is necessary to specify the tilt angle of the installation in order to calculate the area of the solar installation. 
+If the tilt angle is not known, a tilt angle of 30 degrees is assumed. This corresponds to the optimal tilt angle based on the latitude of the given location. In the presented case it is 30 degrees. 
 
-## Outputs:
-The script will visualize the aerial images, the prediction masks, and the estimated photovoltaic installation surface areas in square meters for each image.
+## Data
+The training and validation sets used were created based on orthophotos of the Canton of Zurich and are available for download for further research at the following links:
+
+[Training and Validation Set for PV Detection](https://drive.google.com/drive/folders/1_op6JCrr5PtL0Z6r1h6oUpVMOU_s6ewo?usp=drive_link)<br>
+[Training and Validation Set for PV Segmentation](https://drive.google.com/drive/folders/1NDOf54O5t8VD2k37Nl_63CzUlY4-2kPc?usp=drive_link) 
+
+## Output
+The script will visualize the aerial images, the prediction masks, and the estimated photovoltaic installation surface areas in square meters for each image.<br>
+
+Left: Original image. Center: YOLOv8 output. Right: Surface area estimation
+
+![image](https://github.com/mattdepaolis/PV_AreaEstimator/assets/94449396/de828a4d-ed23-4b2f-abfa-dfb006fe6164)
+
+![image](https://github.com/mattdepaolis/PV_AreaEstimator/assets/94449396/8039d6f1-1e2a-4ff7-9eeb-2ad9a6294bd2)
+
+![image](https://github.com/mattdepaolis/PV_AreaEstimator/assets/94449396/2de913b2-1a8b-425b-a054-553cb2c0eb60)
+
 
 ## Notes:
 Make sure you have the necessary models and input images in place before running the script.
