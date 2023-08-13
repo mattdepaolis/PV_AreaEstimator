@@ -1,5 +1,5 @@
 # PV_AreaEstimator
-This script is designed to perform detection and segmentation of photovoltaic installations in aerial images using trained YOLO models to estimate the surface area of the detected photovoltaic installations. The training and validation set have been created using aerial images of the Canton of Zurich, Switzerland.
+This script is designed to perform detection and segmentation of photovoltaic installations in aerial images using trained YOLOv8 models to estimate the surface area of the detected photovoltaic installations. The training and validation set have been created using aerial images of the Canton of Zurich, Switzerland.
 
 ## How to Use
 ```
