@@ -53,7 +53,4 @@ Left: Original image. Center: YOLOv8 output. Right: Surface area estimation
 ![image](https://github.com/mattdepaolis/PV_AreaEstimator/assets/94449396/2de913b2-1a8b-425b-a054-553cb2c0eb60)
 
 
-## Notes:
-Make sure you have the necessary models and input images in place before running the script.
-
 
