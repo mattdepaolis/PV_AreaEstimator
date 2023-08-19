@@ -33,13 +33,14 @@ Arguments:<br>
 --tilt-angle: Tilt angle of the photovoltaic installation in degrees (default: 30).<br>
 
 Since the image was taken from a bird's eye view, it is necessary to specify the tilt angle of the installation to calculate the area of the solar installation. 
-If the tilt angle is not known, a tilt angle of 30 degrees is assumed. This corresponds to the optimal tilt angle based on the latitude of the given location. In the presented case it is 30 degrees. 
+If the tilt angle is unknown, a tilt angle of 30 degrees is assumed. This corresponds to the optimal tilt angle based on the latitude of the given location. In the presented case it is 30 degrees. 
 
 ## Data
 The training and validation sets used were created based on orthophotos of the Canton of Zurich and are available for download for further research at the following links:
 
 [Training and Validation Set for PV Detection](https://drive.google.com/drive/folders/1_op6JCrr5PtL0Z6r1h6oUpVMOU_s6ewo?usp=drive_link)<br>
 [Training and Validation Set for PV Segmentation](https://drive.google.com/drive/folders/1NDOf54O5t8VD2k37Nl_63CzUlY4-2kPc?usp=drive_link) 
+
 
 ## Output
 The script will visualize the aerial images, the prediction masks, and the estimated photovoltaic installation surface areas in square meters for each image.<br>
