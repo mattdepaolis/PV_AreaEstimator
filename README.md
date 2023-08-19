@@ -1,5 +1,5 @@
 # PV_AreaEstimator
-This script is designed to perform detection and segmentation of photovoltaic installations in aerial images using trained YOLOv8 models to estimate the surface area of the detected photovoltaic installations. The training and validation set have been created using aerial images of the Canton of Zurich, Switzerland.
+This script is designed to perform the detection and segmentation of photovoltaic installations in aerial images using trained YOLOv8 models to estimate the surface area of the detected photovoltaic installations. The training and validation set have been created using aerial images of the Canton of Zurich, Switzerland.
 
 ## How to Use
 ```
@@ -32,7 +32,7 @@ Arguments:<br>
 --img-size: Size for image resizing (default: 640).<br>
 --tilt-angle: Tilt angle of the photovoltaic installation in degrees (default: 30).<br>
 
-Since the image was taken from a bird's eye view, it is necessary to specify the tilt angle of the installation in order to calculate the area of the solar installation. 
+Since the image was taken from a bird's eye view, it is necessary to specify the tilt angle of the installation to calculate the area of the solar installation. 
 If the tilt angle is not known, a tilt angle of 30 degrees is assumed. This corresponds to the optimal tilt angle based on the latitude of the given location. In the presented case it is 30 degrees. 
 
 ## Data
